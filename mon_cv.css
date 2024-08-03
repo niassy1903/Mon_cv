@@ -1,6 +1,13 @@
+body {
+    background-color: rgb(14, 180, 192);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    min-height: 100vh  ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container {
 
-<<<<<<< Updated upstream
-=======
 
     position: relative;
     width: 100%;
@@ -24,7 +31,6 @@ padding: 40px;
     align-items: center;
     padding-bottom: 20px;
     border-bottom: 4px solid rgb(255, 169, 10);
-    
 }
 .profile .img1 {
     position: relative;
@@ -102,4 +108,3 @@ padding: 30px;
 
     
 }
->>>>>>> Stashed changes
