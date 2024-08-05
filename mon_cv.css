@@ -5,9 +5,9 @@ body {
     align-items: center; 
     min-height: 100vh  ;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
 .container {
-
 
     position: relative;
     width: 100%;
@@ -21,41 +21,58 @@ body {
 .container .cote-gauche {
 position: relative;
 background-color: #ffffffc9;
-padding: 40px;
+padding: 10px;
 
 }
 .profile  {
-    position: relative;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    padding-bottom: 20px;
-    border-bottom: 4px solid rgb(255, 169, 10);
+    background-color: orange;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 10px 150px 40px 10px;
 }
 .profile .img1 {
-    position: relative;
-    width: 195px;
-    height: 195px;
-    border-radius: 80%;
-    overflow: hidden;
-}
-.profile .img1 img {
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-object-fit: cover;
 
+   position: relative;
+   width: 200px;
+   height: 150px;
+   border-radius: 100%;
+   overflow: hidden;
+   margin-right: 20px;
+   border: 3px solid white;
+   
 }
-.ct {
-    text-align: center;
+
+.profile .img1 img  {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
 }
+
+
+.profile-detail  {
+    color: white;
+   
+}
+.profile-detail h2 {
+
+    
+    font-size: 1.5em;
+   }
+.profile-detail span {
+   display: block;
+   font-size: 1em;
+   
+}
+
 
 .container .cote-droite {
 position :relative;
 background-color: black;
-padding: 30px;
+padding: 20px;
 
 }
 
@@ -70,18 +87,18 @@ padding: 30px;
     min-width: 100px;
 }
 
-.edu .box1  {
+.edu .box  {
 
     display: flex;
     flex-direction: row;
     margin: 5px  0;
 }
-.edu .box1 .annee1 {
+.edu .box .annee {
     min-width: 100px;
 }
 
 .title-edu {
-    border: 1px solid rgb(255, 169, 10);
+    border: 10px solid rgb(255, 169, 10);
     background-color: rgb(255, 169, 10);
     border-radius: 5px;
     text-align: right;
@@ -89,11 +106,11 @@ padding: 30px;
 }
 
 .title-exp {
-    border: 1px solid rgb(255, 169, 10) ;
+    border: 10px solid rgb(255, 169, 10) ;
     background-color: rgb(255, 169, 10);
     border-radius: 5px;
     text-align: right;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .pied {
@@ -107,4 +124,151 @@ padding: 30px;
     background-color: orange;
 
     
+}
+
+.bullet {
+
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+    margin-right: 15px;
+    align-self :flex-start;
+    margin-top: 36px;
+}
+.bullet1 {
+
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+    margin-right: 15px;
+    align-self :flex-start;
+    margin-top: 36px;
+}
+
+
+
+/* Les Modification de Thierno */
+
+
+
+/* .Titre1{
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 3px solid orange;
+    color: white;
+    
+}
+
+.block{
+     
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2px;
+}
+
+
+.icone{
+    color: orange;
+    font-size: 30px;
+
+}
+.block1 text{
+    display: block;
+} */
+
+#Contact {
+    padding-top: 250px;
+    text-align: center;
+}
+
+.Titre1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    border: 2px solid orange;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    color: white;
+    align-items: center;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+}
+
+.icone {
+    margin-right: 10px;
+    font-size: 2em; /* Adjust the size of the icon */
+    color: orange;
+}
+
+.text {
+    line-height: 1.6; /* Adjust the spacing between lines */
+}
+
+.stitre{
+    font-weight: bold;
+}
+#Skills{
+    padding-top: 80px;
+    text-align: center;
+}
+
+.sotitre{
+    font-size: 30x;
+    color: white;
+    font-weight: bold;
+}
+.percent{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    border: 1px solid orange;
+    display: block;
+    margin-top: 5px;
+}
+.percent div{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    background: orange;
+}
+.Skills, ul, li {
+    margin: 10px;
+}
+#df{
+    margin-top: 750px;
+    display: block;
+    text-align: center;
+}
+.trait{
+    position: relative;
+    width: 65%;
+    height: 2px;
+    border: 1px solid white;
+    background: white;
+    margin-left: 75px;
+    margin-bottom: 20px;
+    
+}
+.ls{
+    font-size: 35px;
+    color: white;
+    padding: 10px;
+    padding-left: 5px;
+    
+     
+}
+.dép{
+    padding-left: 40px;
 }
